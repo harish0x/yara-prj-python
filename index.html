@@ -1,0 +1,44 @@
+<html>
+   <head>
+     <!---- <link rel="stylesheet" href="indexs.css"> --->
+     <style>
+        .box{
+      margin-top: 25%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 45%;
+      border: 75px dotted rgb(245, 246, 245);
+      padding: 20px;
+      font-family: monospace;     
+      }
+      .input{
+         border:thin;
+         border-radius: 15%;
+         border-color: slategrey;
+      }
+      .submit{
+         margin-left: 50%;
+         border-style: double;
+
+      }
+          
+     </style>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+   </head>
+   <body style="  background:rgba(41, 240, 230, 0.924);">
+      <div class="box">
+      <div class="box2">
+      <h1>Upload a file  To check </h1>
+         <form action = "http://localhost:5000/uploader" method = "POST" 
+            enctype = "multipart/form-data">
+            
+            <input class="w3-input w3-border w3-sand" type = "file" name = "file" /> 
+            
+            
+            <input type = "submit"/>
+            
+         </form>  
+      </div>
+     </div> 
+   </body>
+</html>

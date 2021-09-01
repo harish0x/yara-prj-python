@@ -1,0 +1,17 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background:rgba(41, 240, 230, 0.924);
+}
+.form-s{
+    
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border: 100px solid rgb(245, 246, 245);
+    padding: 20px;
+
+}
